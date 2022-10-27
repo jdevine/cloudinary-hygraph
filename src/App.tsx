@@ -72,9 +72,11 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact>
+            <h1>root</h1>
             <Extension />
           </Route>
           <Route path="/cloudinary" exact>
+            <h1>Cloudinary</h1>
             <CloudinaryDialog />
           </Route>
         </Switch>
